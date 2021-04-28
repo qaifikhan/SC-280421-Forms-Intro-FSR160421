@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Intro</title>
+
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h1 id="page-heading">Login</h1>
+
+    <form id="login-form">
+        <h3 class="input-label">Email</h3>
+        <input class="input-field" type="email" placeholder="Enter Email" />
+        <h3 class="input-label">Password</h3>
+        <input class="input-field" type="password" placeholder="Enter Password" />
+        <h3 class="input-label">Confirm Password</h3>
+        <input class="input-field" type="password" />
+
+        <h3>Gender</h3>
+        <label>
+            <input type="radio" name="gender" value="1" />
+            <span>Male</span>
+        </label>
+        
+        <label>
+            <input type="radio" name="gender" value="2" /> <span>Female</span>
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="3" /> <span>Others</span>
+        </label>
+
+        <div class="divider"></div>
+
+        <h3>Security Question</h3>
+        <select>
+            <option>First Option is this one</option>
+            <option>Question Two</option>
+            <option>Question Three</option>
+        </select>
+        <div>
+            <textarea id="answer-box"></textarea>
+        </div>
+
+        <label>
+            <input type="checkbox" /><span>Please accept the tnc</span>
+        </label>
+
+        <div>
+            <input id="btn-submit" type="submit" value="Login" />
+        </div>
+    </form>
+
+</body>
+</html>
